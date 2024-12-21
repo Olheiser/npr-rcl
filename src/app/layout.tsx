@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import CalendlyWidget from "./components/CalendlyButton";
-import Script from "next/script"; // Import Script from Next.js
+// ! Script  import Script from "next/script"; // Import Script from Next.js
 //import CalendlyPopupButton from "./components/CalendlyPopupButton";
 import "./globals.css"
 import type { Metadata } from "next";
@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 //import { PopupButton } from "react-calendly";
 
 export const metadata: Metadata = {
-  title: "Nicholas Robinson Toronto Criminal Lawyer | Criminal Defence Services",
-  description: "Nicholas Robinson offers expert criminal defence services in Toronto for all criminal charges. Call (647) 697-2876 for a free consultation.",
+  title: "Top Criminal Lawyer in Regina | Expert Criminal Defence - Nicholas Robinson",
+  description: "Looking for a trusted criminal lawyer in Regina? Nicholas Robinson provides expert criminal defence for all criminal charges. Call now for a free consultation and protect your rights.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Tag (gtag.js) */}
+        {/* Google Tag (gtag.js) 
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-653876065"
           strategy="afterInteractive" // Ensures script runs after page load
@@ -39,7 +39,7 @@ export default function RootLayout({
               gtag('config', 'AW-653876065');
             `,
           }}
-        />
+        />*/}
       </head>
       <body id="root">
         <Header />

@@ -27,8 +27,7 @@ const FAQAccordion = () => {
         </div>
         {activeIndex === 0 && (
           <div className={styles.faqAnswer}>
-            <p>A qualified criminal defence lawyer can help you determine what
-            defences might exist to the charges you face.</p> 
+            <p>A skilled criminal defence lawyer can evaluate your case, identify any legal defences, and work to challenge the prosecution’s evidence, increasing your chances of beating the charges.</p> 
             <Button link="/criminal-process/can-i-beat-the-charges" text="Learn how you can beat the charges" />
           </div>
         )}
@@ -45,22 +44,14 @@ const FAQAccordion = () => {
             ↓
           </span>
           <h3 className={styles.faqQuestion}>
-            How much does it cost to hire a criminal lawyer?
+            What Are the Costs of Hiring a Criminal Lawyer?
           </h3>
         </div>
         {activeIndex === 1 && (
           <div className={styles.faqAnswer}>
-            <p>Those convicted of criminal offences sometimes have to pay large
-            fines and court surcharges.
+            <p>Legal fees vary depending on your case, and additional expenses like disbursements (travel, printing) may apply. Some lawyers offer flat fees or hourly rates.
             <br /><br />
-            In addition to legal fees, your criminal lawyer might also charge
-            you for out-of-pocket expenses known as &quot;disbursements&quot;. This
-            includes things like the cost of travel and printing. Many lawyers
-            bill by the hour but some will offer a flat or fixed fee for
-            service.
-            <br /><br />
-            Nicholas Robinson offers flexible payment arrangements. Learn more
-            by calling <a href="tel:6476972876" className={styles.faqLink}>(647) 697-2876</a> today.</p>
+            Nicholas Robinson provides flexible payment options. Call <a href="tel:3069948323" className={styles.faqLink}>(306) 994-8323</a> to learn more.</p>
           </div>
         )}
       </div>
@@ -76,14 +67,13 @@ const FAQAccordion = () => {
         ↓
         </span>
         <h3 className={styles.faqQuestion}>
-        How long will my case take to resolve?
+        How Long Does a Criminal Case Usually Take?
         </h3>
     </div>
     {activeIndex === 2 && (
         <div className={styles.faqAnswer}>
-        <p>The duration of a criminal case varies depending on its complexity,
-        the charges, and the court&apos;s schedule. Your criminal lawyer can
-        provide an estimated timeline based on the specifics of your case.</p>
+        <p>
+          The timeline of a criminal case depends on the charges, case complexity, and the court&apos;s schedule. Your criminal lawyer can provide an estimate based on your specific situation.</p>
         <Button link="/criminal-process" text="Criminal Process" /> 
         </div>
     )}
@@ -99,13 +89,13 @@ const FAQAccordion = () => {
     >
       ↓
     </span>
-    <h3 className={styles.faqQuestion}>How Can I Contact You?</h3>
+    <h3 className={styles.faqQuestion}>How Do I Get in Touch with You?</h3>
   </div>
   {activeIndex === 3 && (
     <div className={styles.faqAnswer}>
-      <p>Telephone: <a href="tel:3069959443" className={styles.faqLink}>
-        (306) 994-9522
-      </a></p>
+      <p>You can reach us at <a href="tel:3069948323" className={styles.faqLink}>
+        (306) 994-8323
+      </a> to discuss your case and receive immediate legal assistance.</p>
     </div>
   )}
 </div>
@@ -121,14 +111,12 @@ const FAQAccordion = () => {
       ↓
     </span>
     <h3 className={styles.faqQuestion}>
-      What are the possible outcomes of my case?
+    What Could Happen with My Criminal Case?
     </h3>
   </div>
   {activeIndex === 4 && (
     <div className={styles.faqAnswer}>
-      <p>Possible outcomes include dismissal of charges, a plea bargain, or a
-      trial verdict of guilty or not guilty. Your criminal lawyer will work to
-      achieve the best possible result based on the facts of your case.</p>
+      <p>Your case may result in charges being dismissed, a negotiated plea deal, or a trial verdict of guilty or not guilty. A criminal lawyer will fight for the most favorable result for your situation.</p>
     </div>
   )}
 </div>
@@ -144,14 +132,12 @@ const FAQAccordion = () => {
       ↓
     </span>
     <h3 className={styles.faqQuestion}>
-      What are my rights during a police investigation?
+    What Are My Legal Rights During a Police Investigation?
     </h3>
   </div>
   {activeIndex === 5 && (
     <div className={styles.faqAnswer}>
-      <p>You have the right to remain silent, the right to legal counsel, and the
-      right to be informed of the charges against you. It is important to
-      exercise these rights and contact a criminal lawyer as soon as possible.</p>
+      <p>You have the right to remain silent, the right to legal counsel, and the right to know the charges against you. Exercise these rights and contact a lawyer immediately for guidance.</p>
       <Button link="/criminal-process/your-rights" text="Your Rights" />
     </div>
   )}
@@ -168,15 +154,12 @@ const FAQAccordion = () => {
       ↓
     </span>
     <h3 className={styles.faqQuestion}>
-      Can I represent myself in a criminal case?
+    Should I Represent Myself in a Criminal Case?
     </h3>
   </div>
   {activeIndex === 6 && (
     <div className={styles.faqAnswer}>
-      <p>While you have the right to represent yourself, it is not recommended.
-      Criminal cases are complex, and an experienced criminal lawyer can
-      provide the expertise needed to navigate the legal system and achieve a
-      favorable outcome.</p>
+      <p>While self-representation is allowed, it&apos;s not recommended. Criminal law is complex, and an experienced lawyer can protect your rights and improve your chances of a successful outcome.</p>
     </div>
   )}
 </div>
@@ -192,14 +175,12 @@ const FAQAccordion = () => {
       ↓
     </span>
     <h3 className={styles.faqQuestion}>
-      What should I do if I am arrested?
+    What Steps Should I Take If I Am Arrested?
     </h3>
   </div>
   {activeIndex === 7 && (
     <div className={styles.faqAnswer}>
-      <p>Remain calm, do not resist, and exercise your right to remain silent.
-      Contact a criminal lawyer immediately to receive legal advice and
-      representation.</p>
+      <p>Stay calm, do not resist arrest, and exercise your right to remain silent. Contact a criminal lawyer immediately to ensure your rights are protected and receive professional legal advice.</p>
       <Button link="/criminal-process/your-rights" text="Learn More" />
     </div>
   )}

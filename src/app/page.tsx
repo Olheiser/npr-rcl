@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
-import ladyJustice from "../../public/toronto-criminal-lawyer-lady-justice.webp";
+import ladyJustice from "../../public/regina-criminal-lawyer-lady-justice.webp";
 import clientFocused from "../../public//client-focused-representation.webp";
 import availability from "../../public/availability.webp";
 import trackRecord from "../../public/track-record.webp";
@@ -17,7 +17,6 @@ import thirdStep from "../../public/third-step.webp";
 import criminalProcessPhoto from "../../public/criminal-lawyer-criminal-process.webp";
 import LeadForm from "./components/LeadForm";
 import FAQAccordion from "./components/FAQAccordion";
-import HandshakePhoto from "../../public/criminal-lawyer-handshake.webp";
 
 // For security
 import { headers } from 'next/headers'
@@ -26,10 +25,10 @@ import Script from 'next/script'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Toronto Criminal Lawyer | Criminal Defence Specialist - Nicholas Robinson",
-  description: "Nicholas Robinson offers expert criminal defence services in Toronto for all criminal charges. Call (647) 697-2876 for a free consultation.",
+  title: "Top Criminal Lawyer in Regina | Expert Criminal Defence - Nicholas Robinson",
+  description: "Looking for a trusted criminal lawyer in Regina? Nicholas Robinson provides expert criminal defence for all criminal charges. Call now for a free consultation and protect your rights.",
   alternates: {
-    canonical: 'https://torontocriminallaw.net',
+    canonical: 'https://reginacriminallawyer.ca',
   }
 };
 
@@ -39,18 +38,18 @@ export default async function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://torontocriminallaw.net/",
-    "url": "https://torontocriminallaw.net/",
-    "name": "Toronto Criminal Lawyer - Nicholas Robinson",
+    "@id": "https://reginacriminallawyer.ca/",
+    "url": "https://reginacriminallawyer.ca/",
+    "name": "Regina Criminal Lawyer - Nicholas Robinson",
     "image": "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/7ee63c63-b679-4850-e564-11c72c526c00/public",
-    "datePublished": "2024-12-02T00:00:00+00:00",
-    "dateModified": "2024-12-07T00:00:00+00:00",
-    "description": "Nicholas Robinson, a top-rated Toronto Criminal Lawyer, provides expert legal defence for a wide range of criminal charges, including impaired driving, sexual assault, assault, and fraud. Call (647) 697-2876 for a free consultation with a criminal defence lawyer.",
+    "datePublished": "2024-12-20T00:00:00+00:00",
+    "dateModified": "2024-12-20T00:00:00+00:00",
+    "description": "Nicholas Robinson is a trusted Regina Criminal Lawyer specializing in expert legal defence for criminal charges, including impaired driving (DUI), assault, sexual assault, drug offences, and fraud. As a dedicated criminal defence lawyer in Regina, Nicholas fights to protect your rights and deliver the best possible outcome. Contact (306) 994-8323 today for a free consultation.",
     "inLanguage": "en-CA",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "Nicholas Robinson Toronto Criminal Lawyer",
-      "url": "https://torontocriminallaw.net/"
+      "name": "Nicholas Robinson Regina Criminal Lawyer",
+      "url": "https://reginacriminallawyer.ca/"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
@@ -59,51 +58,51 @@ export default async function Home() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://torontocriminallaw.net/"
+          "item": "https://reginacriminallawyer.ca/"
         }
       ]
     },
     "primaryImageOfPage": {
       "@type": "ImageObject",
-      "@id": "https://torontocriminallaw.net/#primaryImage",
+      "@id": "https://reginacriminallawyer.ca/#primaryImage",
       "url": "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/972ce4b7-c9a2-4003-3b1d-fd55da8c7800/public",
       "contentUrl": "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/972ce4b7-c9a2-4003-3b1d-fd55da8c7800/public",
-      "caption": "Nicholas Robinson, Toronto Criminal Lawyer, providing expert legal defence.",
+      "caption": "Nicholas Robinson, Regina Criminal Lawyer, providing specialized criminal defence services.",
       "width": 1150,
       "height": 645
     },
     "mainEntity": {
       "@type": "LegalService",
-      "@id": "https://torontocriminallaw.net/#LegalService",
-      "name": "Nicholas Robinson Toronto Criminal Lawyer",
+      "@id": "https://reginacriminallawyer.ca/#LegalService",
+      "name": "Nicholas Robinson Regina Criminal Lawyer",
       "alternateName": "N.P. Robinson Law Professional Corporation",
-      "url": "https://torontocriminallaw.net/",
+      "url": "https://reginacriminallawyer.ca/",
       "logo": "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/7ee63c63-b679-4850-e564-11c72c526c00/public",
       "image": "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/7ee63c63-b679-4850-e564-11c72c526c00/public",
-      "telephone": "+1-647-697-2876",
-      "description": "Nicholas Robinson is a seasoned Toronto Criminal Lawyer specializing in criminal defence for all criminal charges, including impaired driving, sexual assault, and assault charges.",
+      "telephone": "+1-306-994-8323",
+      "description": "Nicholas Robinson, a leading Regina Criminal Lawyer, provides expert criminal defence for all criminal charges, including impaired driving (DUI), sexual assault, assault, drug offences, and fraud. With a proven track record of success in Regina courts, Nicholas Robinson ensures strong, personalized representation to protect your rights. Contact +1-306-994-8323 for a free consultation today.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "100 King Street West, 56th Floor, First Canadian Place",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "postalCode": "M5X 1A9",
+        "streetAddress": "2010 11th Ave Unit 701, Royal Bank Building",
+        "addressLocality": "Regina",
+        "addressRegion": "SK",
+        "postalCode": "S4P 0J3",
         "addressCountry": "CA"
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "@id": "https://torontocriminallaw.net/#ContactPoint",
+        "@id": "https://reginacriminallawyer.ca/#ContactPoint",
         "telephone": "+1-647-697-2876",
         "contactType": "customer service",
         "contactOption": ["TollFree", "HearingImpairedSupported"],
         "areaServed": [
         {
           "@type": "AdministrativeArea",
-          "name": "Ontario"
+          "name": "Saskatchewan"
         },
         {
           "@type": "City",
-          "name": "Toronto"
+          "name": "Regina"
         }
       ],
         "availableLanguage": ["en", "fr", "de", "uk"]
@@ -112,32 +111,32 @@ export default async function Home() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "60"
+        "reviewCount": "61"
       },
       "serviceArea": [
       {
         "@type": "AdministrativeArea",
-        "name": "Ontario"
+        "name": "Saskatchewan"
       },
       {
         "@type": "City",
-        "name": "Toronto"
+        "name": "Regina"
       }
     ],
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "43.648429",
-      "longitude": "-79.381290",
-      "name": "Nicholas Robinson Law Office - Toronto"
+      "latitude": "50.4480",
+      "longitude": "-104.6178",
+      "name": "Nicholas Robinson Law Office - Regina"
     },
     "makesOffer": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "@id": "https://torontocriminallaw.net/#DUIDefence",
+          "@id": "https://reginacriminallawyer.ca/#DUIDefence",
           "name": "DUI/DWI Defence",
-          "description": "Legal defence for DUI and impaired driving charges in Toronto."
+          "description": "Facing DUI or impaired driving charges in Regina? Nicholas Robinson provides expert DUI/DWI defence to protect your driving record and minimize penalties. Call for a strong legal defence today."
         }
       },
       {
@@ -145,17 +144,17 @@ export default async function Home() {
         "itemOffered": {
           "@type": "Service",
           "name": "Drug Charges",
-          "@id": "https://torontocriminallaw.net/#DrugCharges",
-          "description": "Expert representation for drug-related offences, including possession and trafficking."
+          "@id": "https://reginacriminallawyer.ca/#DrugCharges",
+          "description": "Accused of drug offences in Regina? Get experienced legal defence for possession, trafficking, and drug-related charges. Nicholas Robinson will fight to protect your rights and your future."
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "@id": "https://torontocriminallaw.net/#AssaultDefence",
+          "@id": "https://reginacriminallawyer.ca/#AssaultDefence",
           "name": "Assault Charges",
-          "description": "Defence strategies for assault cases, including aggravated and simple assault."
+          "description": "Charged with assault in Regina? Nicholas Robinson offers strategic legal defence for assault charges, including simple assault, aggravated assault, and domestic violence. Protect your reputation and freedom."
         }
       }
     ],
@@ -168,10 +167,10 @@ export default async function Home() {
       "Youth Criminal Justice Act"
     ],
     "sameAs": [
-      "https://g.co/kgs/6SZDyc7", 
+      "https://g.co/kgs/84UGZ9c", 
       "https://www.facebook.com/nicholasrobinsoncriminallawyer/", 
       "https://www.linkedin.com/company/nicholas-robinson-criminal-lawyer",
-      "https://maps.app.goo.gl/XD31rPLMQ3GWHR14A"
+      "https://maps.app.goo.gl/r27eSnDYZdJn7g8Q6"
     ],
     "potentialAction": {
       "@type": "ReserveAction",
@@ -179,7 +178,7 @@ export default async function Home() {
         "@type": "EntryPoint",
         "urlTemplate": "https://calendly.com/nicholas-robinson-criminal-lawyer/free-consultation"
       },
-      "description": "Schedule a free consultation with Nicholas Robinson, a Toronto Criminal Lawyer."
+      "description": "Schedule a free consultation with Nicholas Robinson, a Regina Criminal Lawyer."
     }
     }
   }
@@ -198,12 +197,12 @@ export default async function Home() {
         <div className={styles.featureRow}>
         <article className={styles.introContainer}>
           <div className={styles.headingContainer}>
-            <h1 className={styles.title}>Toronto Criminal Lawyer</h1>
+            <h1 className={styles.title}>Regina Criminal Lawyer</h1>
             <h2 className={styles.titleSubheading}>Criminal Defence Specialist</h2>
           </div>
           
           
-          <p className={styles.introCopy}>Facing criminal charges? <strong><Link href="/about">Nicholas Robinson</Link></strong> is your dedicated <strong>criminal lawyer in Toronto, Ontario.</strong> With a focus on individualized and responsive representation, Nicholas provides tailored defence strategies to protect your rights and achieve the best possible outcome.</p>
+          <p className={styles.introCopy}>Charged with a criminal offence in <strong>Regina</strong>? <strong>Nicholas Robinson</strong>, a dedicated and results-driven <strong>criminal lawyer</strong> in <strong>Saskatchewan</strong>, offers specialized criminal defence tailored to your unique needs. Call <strong><a href="tel:3069948323">(306) 994-8323</a></strong> today for a free consultation and start building your defence with confidence.</p>
           <div className={styles.metricsRow}>
             <div className={styles.metricItem}>
               <div className={styles.clientMetric}>1,300+</div>
@@ -215,15 +214,15 @@ export default async function Home() {
             </div>
             <div className={styles.metricItem}>
               <div className={styles.clientMetric}>15+</div>
-              <div className={styles.clientLabel}>Years Defending<br/>Canadians</div>
+              <div className={styles.clientLabel}>Years Defending<br/>Saskatchewan</div>
             </div>
             <div className={styles.metricItem}>
-              <div className={styles.clientMetric}>24/7</div>
-              <div className={styles.clientLabel}>Availability and<br/>Client Support</div>
+              <div className={styles.clientMetric}>60+</div>
+              <div className={styles.clientLabel}>5/5 Star Ratings<br/>On Google</div>
             </div>
           </div>
           <div className={styles.introButtonRow}>
-            <a href="tel:6476972876">
+            <a href="tel:3069948323">
               <button className={styles.introButton}>Free Consultation</button>
             </a>
           </div>
@@ -231,7 +230,7 @@ export default async function Home() {
         <div className={styles.ladyJusticeContainer}>
           <Image 
             src={ladyJustice}
-            alt="Toronto Criminal Lawyer Lady Justice"
+            alt="Regina Criminal Lawyer Lady Justice"
             width={1150}
             height={645}
             className={styles.ladyJustice}
@@ -246,11 +245,11 @@ export default async function Home() {
       <section className={styles.bioRow}>
         <article className={styles.bioContainer}>
           <div className={styles.headingContainer}>
-          <h2 className={`${styles.sectionHeading} ${styles.bioHeading}`}><Link href="/practice-areas">Nicholas Robinson, Toronto Criminal Lawyer</Link></h2>
+          <h2 className={`${styles.sectionHeading} ${styles.bioHeading}`}><Link href="/practice-areas">Nicholas Robinson, Regina Criminal Lawyer</Link></h2>
           <h3 className={styles.sectionSubheading}>Legal Service With Compassion</h3>
           
           </div>
-          <p className={styles.nickBio}>Nicholas Robinson is a seasoned criminal defence lawyer with a distinguished track record of serving clients in Ontario since 2014. Known for his approachable demeanor, relentless dedication, and commitment to ensuring clients feel understood, respected, and effectively defended, Nicholas provides personalized legal representation that is both strategic and compassionate. His expertise spans a broad spectrum of <Link href="/practice-areas">criminal charges</Link>, including <Link href="/practice-areas/driving-offences/impaired-driving">impaired driving</Link>, <Link href="/practice-areas/fraud-charges/fraud">fraud</Link>, <Link href="/practice-areas/sexual-offences/sexual-assault">sexual assault</Link>, <Link href="/practice-areas/criminal-harassment">criminal harassment</Link>, and <Link href="/practice-areas/drug-charges/possession-of-narcotics">possession of narcotics</Link>.</p>
+          <p className={styles.nickBio}>Nicholas Robinson is a trusted criminal defence lawyer in Regina, Saskatchewan, with a proven track record of successfully defending clients since 2014. Known for his approachable demeanor and relentless advocacy, Nicholas provides strategic and personalized legal representation to clients facing a wide range of <Link href="/practice-areas">criminal charges</Link>. His expertise includes <Link href="/practice-areas/driving-offences/impaired-driving">impaired driving (DUI)</Link>, <Link href="/practice-areas/fraud-charges/fraud">fraud</Link>, <Link href="/practice-areas/sexual-offences/sexual-assault">sexual assault</Link>, <Link href="/practice-areas/criminal-harassment">criminal harassment</Link>, and drug-related offences such as <Link href="/practice-areas/drug-charges/possession-of-narcotics">possession of narcotics</Link>. With a strong commitment to protecting your rights and achieving the best possible outcome, Nicholas Robinson is the criminal lawyer Regina residents rely on for effective, compassionate defence.</p>
           <div className={styles.aboutIconGrid}>
             <div className={styles.aboutIconItem}>
               <Image 
@@ -314,7 +313,7 @@ export default async function Home() {
             </div>
           </div>
           <div className={styles.introButtonRow}>
-            <a href="tel:6476972876">
+            <a href="tel:3069948323">
               <button className={styles.introButton}>Free Consultation</button>
             </a>
           </div>
@@ -331,7 +330,7 @@ export default async function Home() {
           <div className={styles.practiceCardContainer}>
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/sexual-offences/sexual-assault">Sexual Assault</Link></h3>
-              <p><strong><Link href="/practice-areas/sexual-offences/sexual-assault">Sexual Assault</Link></strong> involves the unauthorized, intentional touching of another person in circumstances of a sexual nature, violating their sexual integrity.</p>
+              <p><strong><Link href="/practice-areas/sexual-offences/sexual-assault">Sexual Assault</Link></strong> is the intentional, unauthorized touching of someone in a sexual nature, violating their sexual integrity.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/sexual-offences/sexual-assault">Learn more about <strong>Sexual Assault Charges</strong></Link>
               </span><br/>
@@ -340,7 +339,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/driving-offences/impaired-driving">Impaired Driving</Link></h3>
-              <p><strong><Link href="/practice-areas/driving-offences/impaired-driving">Impaired Driving</Link></strong> refers to the operation of a motor vehicle while under the influence of alcohol, drugs, or a combination of both, affecting one&apos;s ability to drive safely.</p>
+              <p><strong><Link href="/practice-areas/driving-offences/impaired-driving">Impaired Driving</Link></strong> is the operation of a motor vehicle while under the influence of alcohol, drugs, or both, impairing one&apos;s ability to drive safely.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/driving-offences/impaired-driving">Learn more about <strong>Impaired Driving Charges</strong></Link>
               </span><br/>
@@ -349,7 +348,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/assault-charges/assault">Assault</Link></h3>
-              <p><strong><Link href="/practice-areas/assault-charges/assault">Assault</Link></strong> occurs when an individual intentionally applies force to another person without their consent, threatens to do so, or impedes someone while carrying a weapon.</p>
+              <p><strong><Link href="/practice-areas/assault-charges/assault">Assault</Link></strong> occurs when a person intentionally applies force, threatens to do so, or obstructs another without consent, potentially involving a weapon.</p>
               <span className={styles.readMore}>
                 <Link href="/practice-areas/assault-charges/assault">Assault<strong>Assault Charges</strong></Link>
               </span><br/>
@@ -358,7 +357,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></h3>
-              <p><strong><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></strong> involves the intentional use of deceit, falsehood, or other fraudulent means to deprive someone of property, money, or services.</p>
+              <p><strong><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></strong> is the deliberate use of deception, misrepresentation, or other dishonest methods to unlawfully obtain property, money, or services.</p>
               <span className={styles.readMore}>
                <Link href="/practice-areas/fraud-charges/fraud">Learn more about <strong>Fraud Charges</strong></Link>
               </span><br/>
@@ -367,9 +366,9 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3>Uttering Threats</h3>
-              <p><strong>Uttering threats</strong> involves knowingly making threats to cause death, bodily harm, damage property, or harm animals.</p>
+              <p><strong>Uttering threats</strong> means knowingly threatening to cause death, bodily harm, property damage, or harm to animals.</p>
               <span className={styles.readMore}>
-                <a href="https://torontocriminallaw.net/practice-areas/sexual-offences/sexual-assault/">Learn more about <strong>Uttering Threats Charges</strong>
+                <a href="https://reginacriminallawyer.ca/practice-areas/sexual-offences/sexual-assault/">Learn more about <strong>Uttering Threats Charges</strong>
                 </a>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
@@ -377,7 +376,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/criminal-harassment">Criminal Harassment</Link></h3>
-              <p><strong><Link href="/practice-areas/criminal-harassment">Criminal Harassment</Link></strong> occurs when an individual, without lawful authority, engages in threatening or harassing behavior that causes someone to reasonably fear for their safety.</p>
+              <p><strong><Link href="/practice-areas/criminal-harassment">Criminal Harassment</Link></strong> involves engaging in behavior that causes someone to fear for their safety, without lawful authority.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/criminal-harassment">Learn more about <strong>Criminal Harassment Charges</strong></Link>
               </span><br/>
@@ -386,7 +385,7 @@ export default async function Home() {
             
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/young-offenders">Young Offenders</Link></h3>
-              <p><strong><Link href="/practice-areas/young-offenders">Young Offenders</Link></strong> are individuals aged 12 to 17 who are accused of committing a crime. The Youth Criminal Justice Act (YCJA) ensures that the rights of young offenders are upheld by governing the legal process.</p>
+              <p><strong><Link href="/practice-areas/young-offenders">Young Offenders</Link></strong> are individuals aged 12 to 17 accused of crimes, with the Youth Criminal Justice Act (YCJA) protecting their legal rights.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/young-offenders">Learn more about <strong>Young Offender Charges</strong></Link>
               </span><br/>
@@ -395,7 +394,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></h3>
-              <p><strong><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of narcotics</Link></strong> involves having control or custody of illegal substances. This can include personal possession, constructive possession (where the drugs are in a place controlled by the accused), or joint possession with others.</p>
+              <p><strong><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of narcotics</Link></strong> refers to having custody or control of illegal drugs, whether personally, constructively, or jointly with others.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/drug-charges/possession-of-narcotics">Learn more about <strong>Possession of Narcotics Charges</strong></Link>
               </span><br/>
@@ -404,7 +403,7 @@ export default async function Home() {
 
             <article className={styles.practiceCard}>
               <h3><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></h3>
-              <p><strong><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></strong> involves theft combined with the use or threat of violence. This can include physical assaults, the use of a weapon, or actions intended to prevent resistance during the theft.</p>
+              <p><strong><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></strong> combines theft with the threat or use of violence, including assaults, weapon use, or acts preventing resistance during the crime.</p>
               <span className={styles.readMore}>
               <Link href="/practice-areas/property-crimes/robbery">Learn more about <strong>Robbery Charges</strong></Link>
               </span><br/>
@@ -431,7 +430,7 @@ export default async function Home() {
             <div className={styles.infoContent}>
                 <Link href="/criminal-process/should-i-plead-guilty">
                 <h2 className={styles.infoHeading}>Should I Plead Guilty?</h2></Link>
-                <p>Deciding whether to plead guilty is a significant choice that should not be taken lightly. It is crucial to understand the implications and possible outcomes of a guilty plea, including any penalties or long-term consequences. Consulting with a criminal lawyer can help you make an informed decision.</p>
+                <p>Deciding to plead guilty is a serious decision that requires careful consideration. It&apos;s essential to understand the potential penalties and long-term effects of a guilty plea. Consulting a criminal lawyer ensures you have the guidance needed to make an informed choice.</p>
             </div>
             <div className={styles.infoButtonContainer}>
               <Link href="/criminal-process/should-i-plead-guilty/" className={styles.infoButtonLink}>
@@ -454,7 +453,7 @@ export default async function Home() {
             <div className={styles.infoContent}>
                 <Link href="/criminal-process/can-i-beat-the-charges">
                 <h2 className={styles.infoHeading}>Can I Beat The Charges?</h2></Link>
-                <p>Facing criminal charges is daunting, but it is possible to challenge and potentially beat the charges against you. Key factors include whether your rights were violated, the strength of the prosecution&apos;s evidence, and available defences. A skilled criminal lawyer can provide the expertise needed to navigate these complexities and build a robust defence strategy.</p>
+                <p>Challenging criminal charges can feel overwhelming, but it is possible to beat them. Success depends on factors like the strength of the evidence, rights violations, and available defences. An experienced criminal lawyer can assess your case and develop a strong defence strategy.</p>
             </div>
             <div className={styles.infoButtonContainer}>
               <Link href="/criminal-process/can-i-beat-the-charges" className={styles.infoButtonLink}>
@@ -464,7 +463,7 @@ export default async function Home() {
           </div>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <a href="tel:6476972876">
+                <a href="tel:3069948323">
                   <Image 
                     src={speakLawyer}
                     alt="Speak to a criminal lawyer icon"
@@ -475,12 +474,12 @@ export default async function Home() {
                 </a>
             </div>
             <div className={styles.infoContent}>
-                <a href="tel:6476972876">
+                <a href="tel:3069948323">
                 <h2 className={styles.infoHeading}>Speak to a Criminal Lawyer Now</h2></a>
-                <p>Speaking with an experienced criminal lawyer in Toronto as soon as possible is vital when faced with criminal charges. A Toronto criminal lawyer can provide immediate assistance, guide you through the legal process, and work to achieve the best possible outcome for your case.</p>
+                <p>Consulting an experienced criminal lawyer in Regina immediately is critical when facing criminal charges. A Regina defence lawyer can offer urgent advice, guide you through each step of the legal process, and fight to secure the best outcome for your case.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <a href="tel:6476972876" className={styles.infoButtonLink}>
+              <a href="tel:3069948323" className={styles.infoButtonLink}>
                 <button className={`${styles.introButton} ${styles.infoButton}`}>Call Now</button>
             </a>
             </div>
@@ -519,11 +518,11 @@ export default async function Home() {
                     className={styles.processIcon}
                   />
                   <div className={styles.processHeadingWrap}>
-                    <h3><a href="tel:6476972876">Initial Consultation</a></h3>
+                    <h3><a href="tel:3069948323">Initial Consultation</a></h3>
                   </div>
                   
                 </div>
-                <p>The initial consultation is your first opportunity to discuss your case with a criminal lawyer. During this meeting you can explain your situation, ask questions, and receive preliminary advice on your legal options and the steps to take next.</p>
+                <p>The initial consultation is your first chance to meet with a criminal lawyer and discuss your case. You can outline your situation, ask questions, and receive initial advice about your legal options and the next steps to take.</p>
               </div>
               <div className={styles.processContentBlock}>
                 <div className={styles.processStepHeadingContainer}>
@@ -535,10 +534,10 @@ export default async function Home() {
                     className={styles.processIcon}
                   />
                   <div className={styles.processHeadingWrap}>
-                  <h3><a href="tel:6476972876">Disclosure Review</a></h3>
+                  <h3><a href="tel:3069948323">Disclosure Review</a></h3>
                   </div>
                 </div>
-                <p>A thorough review of the disclosure, which includes all evidence the prosecution intends to use against you, is critical. Your criminal lawyer will analyze this information to identify any weaknesses in the case and develop a defence strategy tailored to your situation.</p>
+                <p>Disclosure review involves carefully examining all evidence the prosecution plans to use against you. Your criminal lawyer will assess the details to uncover weaknesses in the case and craft a strong, tailored defence strategy.</p>
               </div>
               <div className={styles.processContentBlock}>
                 <div className={styles.processStepHeadingContainer}>
@@ -550,10 +549,10 @@ export default async function Home() {
                     className={styles.processIcon}
                   />
                   <div className={styles.processHeadingWrap}>
-                  <h3><a href="tel:6476972876">Discuss Your Options</a></h3>
+                  <h3><a href="tel:3069948323">Discuss Your Options</a></h3>
                   </div>
                 </div>
-                <p>Your criminal lawyer will discuss your legal options with you after reviewing the disclosure. This includes potential defences, the likelihood of success, and the possible outcomes of your case. Together, you will determine the best course of action.</p>
+                <p>After reviewing the disclosure, your criminal lawyer will explain your legal options, including potential defences, the likelihood of success, and possible outcomes, helping you make informed decisions about your case.</p>
               </div>
             </div>
           </article>
@@ -569,29 +568,19 @@ export default async function Home() {
             </div>
             <div className={styles.ctaContentContainer}>
               <div className={styles.ctaCopyBlock}>
-                <p>When charged with a crime, having a criminal lawyer on your side makes all the difference. Your criminal lawyer will build a defence strategy tailored to your situation, challenge improper evidence, uncover new evidence, and identify witnesses who may help support your defence.<br/><br/>
-                Additionally, your criminal lawyer will handle all the legal complexities, from taking care of administrative procedures to negotiating with prosecutors for reduced charges or a favorable plea bargain. Their goal is to protect your rights and get the best possible outcome for your case.</p>
+                <p>When facing criminal charges, having a skilled criminal lawyer can make all the difference. Your lawyer will develop a defence strategy tailored to your case, challenge questionable evidence, uncover new details, and identify witnesses who can strengthen your defence. Additionally, your criminal lawyer will manage all legal complexities, from handling administrative tasks to negotiating with prosecutors for reduced charges or favorable plea deals. Their priority is to protect your rights and secure the best possible outcome for your case.</p>
                 {/* Map widget */}
                 <div className={styles.mapContainer}>
-                  <Image 
-                    src={HandshakePhoto}
-                    alt="Criminal lawyer shaking client's hand."
-                    width={700}
-                    height={374}
-                    className={styles.handshakePhoto}
-                  />
-                  {/* 
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11547.820726458673!2d-79.3816777!3d43.6491008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3587eafc142b%3A0xb5314d7d2803c70e!2sNicholas%20Robinson%2C%20Criminal%20Lawyer!5e0!3m2!1sen!2sca!4v1733623604143!5m2!1sen!2sca" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4850192615254!2d-104.6099363!3d50.45069230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531c1f4223089f1b%3A0x7e586f5bf6997390!2sNicholas%20Robinson%20Criminal%20Lawyer!5e0!3m2!1sen!2sca!4v1734732688674!5m2!1sen!2sca" 
                     width="440" 
                     height="400" 
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Nicholas Robinson Criminal Lawyer Toronto Office"
+                    title="Nicholas Robinson Criminal Lawyer Regina Office"
                     className={styles.map}
                   >
                   </iframe>
-                  */}
                 </div>
               </div>
             </div>

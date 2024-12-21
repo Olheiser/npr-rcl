@@ -6,8 +6,8 @@ import PageHeader from "../../components/PageHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Penalties and Sentencing | Toronto Criminal Lawyer",
-  description: "Learn about the potential penalties and sentencing. Call (647) 697-2876 to speak with a Toronto Criminal Lawyer today.",
+  title: "Penalties and Sentencing | Regina Criminal Lawyer",
+  description: "Understand the potential penalties and sentencing for your charges. Nicholas Robinson provides expert legal advice and representation in Regina. Call (306) 994-8323 to discuss your case.",
 };
 
 export default function Page() {

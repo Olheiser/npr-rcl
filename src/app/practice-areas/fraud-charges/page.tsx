@@ -7,8 +7,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fraud Charges | Toronto Criminal Lawyer",
-  description: "Facing fraud charges in Toronto? Click here to learn more about our criminal defence services.",
+  title: "Fraud Charges | Regina Criminal Lawyer",
+  description: "Charged with fraud in Regina? Nicholas Robinson offers experienced legal representation for all types of fraud charges.",
 };
 
 export default function Page() {
@@ -19,7 +19,7 @@ export default function Page() {
                 <section className={`${styles.pageContent} ${styles.categoryBody}`}>
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></h2>
-                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></strong> is the deliberate use of deceit, falsehood, or other fraudulent methods to deceive the public or individuals and gain personal benefit in terms of money or property. Examples of fraudulent activities include identity theft, tax evasion, insurance scams, telemarketing fraud, and embezzlement.</p>
+                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></strong> involves the intentional use of deceit, falsehoods, or other fraudulent methods to gain financial or personal benefits, often at the expense of others. Common examples include identity theft, tax evasion, insurance fraud, telemarketing scams, and embezzlement.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></strong>
                         </p>
@@ -27,7 +27,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Counterfeiting</h2>
-                        <p className={styles.categoryCopy}><strong>Counterfeiting</strong> is committed when an individual refuses or fails to provide a breath or bodily fluid sample for alcohol or drug testing when requested by a law enforcement officer pursuant to <a href="https://laws-lois.justice.gc.ca/eng/acts/c-46/section-320.2.html">Sections 320.27 or 320.28 of the Criminal Code.</a></p>
+                        <p className={styles.categoryCopy}><strong>Counterfeiting</strong> involves the illegal reproduction of currency, documents, or goods with the intent to deceive others into accepting them as genuine. This serious offence undermines trust in economic and legal systems.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Counterfeiting</strong>
                         </p>
@@ -35,7 +35,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Forgery</h2>
-                        <p className={styles.categoryCopy}><strong>Forgery</strong> occurs when someone knowingly creates a false document with the intent to pass it off as genuine. This act is prohibited under <a href="https://laws-lois.justice.gc.ca/eng/acts/c-46/section-366.html">section 366 of the Criminal Code</a>, which covers actions such as adding, altering, or removing material from an authentic document. Examples of forgery include signing a fake signature on a check or creating fraudulent letters for insurance or healthcare purposes.</p>
+                        <p className={styles.categoryCopy}><strong>Forgery</strong> occurs when an individual knowingly creates, alters, or falsifies a document with the intent to use it as genuine. Examples include signing someone else&apos;s name on a check or creating fake legal documents, which is prohibited under section 366 of the Criminal Code.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Forgery</strong>
                         </p>
@@ -43,7 +43,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Identity Theft</h2>
-                        <p className={styles.categoryCopy}><strong>Identity Theft</strong> refers to the act of obtaining or possessing another person&apos;s personal identity information with the intention of committing a serious offence that involves fraud, deceit, or falsehood as an integral part of the crime.</p>
+                        <p className={styles.categoryCopy}><strong>Identity Theft</strong> refers to the acquisition or possession of another individual&apos;s personal information with the intent to commit fraud or other crimes involving deceit or falsehood, leading to significant financial and personal harm.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Identity Theft</strong>
                         </p>

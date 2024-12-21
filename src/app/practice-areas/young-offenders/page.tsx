@@ -15,26 +15,26 @@ export default function Page() {
         <main className={styles.pageBody}>
             <PageHeader title="Young Offenders"/>
             <div className={styles.pageContainer}>
-                <article className={styles.pageContent}>
-                    <p className={styles.contentBreak}>Young offenders are individuals aged 12 to 17 who are accused of committing a crime. The <a href="https://laws-lois.justice.gc.ca/eng/acts/y-1.5/">Youth Criminal Justice Act (YCJA)</a> ensures that the rights of young offenders are upheld by governing the legal process.</p>
+            <article className={styles.pageContent}>
+    <p className={styles.contentBreak}>Young offenders are individuals aged 12 to 17 accused of committing a crime. The <a href="https://laws-lois.justice.gc.ca/eng/acts/y-1.5/">Youth Criminal Justice Act (YCJA)</a> governs the legal process to ensure that the rights of young offenders are protected and emphasizes rehabilitation and reintegration.</p>
 
-                    <h2>Rights of Young Offenders</h2>
-                    <p>Under the YCJA, young offenders have specific rights and protections that differ from those of adult offenders. These rights include:</p>
-                    <ul className={`${styles.contentList}`}>
-                        <li><strong>Age of Criminal Responsibility:</strong> The YCJA applies to young persons who are between the ages of 12 and 17 years old.</li>
-                        <li><strong>Youth Justice Court:</strong> The YCJA provides a separate youth justice court system which has different procedures and rules than adult criminal courts.</li>
-                        <li><strong>Privacy Protection:</strong> The identity of young persons accused of a crime is protected under the YCJA. This means that their name cannot be published in the media, and their court records are sealed.</li>
-                        <li><strong>Custody and Detention:</strong> Young persons can only be held in custody or detention for a limited period, and the conditions of their confinement must be appropriate for their age and developmental stage.</li>
-                    </ul>
-                    <p className={styles.contentBreak}>The YCJA recognizes that young people who commit crimes need guidance, support, and treatment to prevent them from becoming entrenched in the criminal justice system. For this reason, the primary focus of the legal process for young offenders is on rehabilitation and reintegration.</p>
+    <h2>Key Rights of Young Offenders</h2>
+    <p>Under the YCJA, young offenders have unique rights and protections distinct from adult offenders. These include:</p>
+    <ul className={`${styles.contentList}`}>
+        <li><strong>Age of Criminal Responsibility:</strong> The YCJA applies to individuals aged 12 to 17 years old, ensuring age-appropriate legal procedures.</li>
+        <li><strong>Youth Justice Court:</strong> Young offenders are tried in a separate court system with procedures designed specifically for youth cases.</li>
+        <li><strong>Privacy Protection:</strong> The YCJA protects the identity of young offenders by prohibiting the publication of their names and sealing court records.</li>
+        <li><strong>Custody and Detention:</strong> Detention periods for young offenders are limited, and confinement conditions are tailored to their age and developmental needs.</li>
+    </ul>
+    <p className={styles.contentBreak}>The YCJA emphasizes guidance, support, and treatment for young offenders to help prevent further involvement in the criminal justice system. The focus is on rehabilitation and reintegration into society rather than punishment.</p>
 
-                    <h2>Importance of Legal Representation</h2>
-                    <p className={styles.contentBreak}>Hiring an experienced criminal lawyer who specializes in young offender cases is crucial to ensuring that your child&apos;s rights are protected and that they receive the best possible outcome.</p>
+    <h2>The Importance of Legal Representation</h2>
+    <p className={styles.contentBreak}>Hiring an experienced criminal defence lawyer with expertise in young offender cases is critical to ensuring your child&apos;s rights are protected and achieving the best possible outcome for their case.</p>
 
-                    <h2>Need a Lawyer? Get a Free Consultation With a Skilled Defence Attorney</h2>
-                    <p>We are available 24/7 to discuss your case, explore your options, and provide the guidance and support you need during this challenging time. If your child has been accused of a crime, don&apos;t hesitate to call us at <a href="tel:6476972876">(647) 697-2876</a>.</p>
+    <h2>Contact a Defence Lawyer for a Free Consultation</h2>
+    <p>We are available 24/7 to discuss your case, provide expert guidance, and explore all available options. If your child has been accused of a crime, don&apos;t hesitate to call us at <a href="tel:3069948323">(306) 994-8323</a>.</p>
+</article>
 
-                </article>
                 <aside className={styles.form}>
                     <LeadForm />
                 </aside>

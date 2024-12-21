@@ -434,6 +434,11 @@
     padding-bottom: 20px;
 }
 
+.ctaCopyBlock p, .processContentBlock p, .infoContent p, .practiceCard p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
 /* FAQ Container */
 .FAQButtonContainer {
     display: flex;
@@ -843,8 +848,8 @@
 
 /* Info Section */
 .infoButton {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
     text-transform: none;
     margin-bottom: 40px;
 }
@@ -961,4 +966,8 @@
   .handshakePhoto {
     margin-top: 20px;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .introCopy a {
+    color: #bb0000;
   }

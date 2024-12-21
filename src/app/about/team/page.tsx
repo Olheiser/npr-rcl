@@ -14,8 +14,8 @@ import MariiaTsyliuryk from "../../../../public/mariia-tsyliuryk.webp";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Team | Toronto Criminal Lawyer",
-  description: "Do you need a criminal lawyer in Toronto? Click here to learn about the team fighting for the best possible outcome for your case.",
+  title: "Our Team | Regina Criminal Lawyer",
+  description: "Looking for a skilled criminal defence team in Regina? Learn about the experienced professionals dedicated to protecting your rights and achieving the best possible outcome. Call (306) 994-8323 to get started.",
 };
 
 export default function Page() {

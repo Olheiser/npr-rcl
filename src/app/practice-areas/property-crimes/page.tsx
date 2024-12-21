@@ -7,8 +7,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Property Crimes | Toronto Criminal Lawyer",
-  description: "We provide criminal defence services for all property-related criminal charges. Click here to learn more.",
+  title: "Property Crimes | Regina Criminal Lawyer",
+  description: "Facing property crime charges in Regina? Nicholas Robinson provides dedicated defence for theft, burglary, and other property-related offences.",
 };
 
 export default function Page() {
@@ -19,7 +19,7 @@ export default function Page() {
                 <section className={`${styles.pageContent} ${styles.categoryBody}`}>
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Theft</h2>
-                        <p className={styles.categoryCopy}><strong>Theft</strong> is the act of taking someone else&apos;s property without their consent, unless you genuinely believe that the property is rightfully yours. It does not matter if you only intend to possess the item temporarily. This offence also includes the act of converting someone else&apos;s property for your own benefit.</p>
+                        <p className={styles.categoryCopy}><strong>Theft</strong> is the act of unlawfully taking someone else&apos;s property without their consent, regardless of whether the intent is to keep it permanently or temporarily. It also includes converting another person&apos;s property for personal benefit without authorization.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Theft</strong>
                         </p>
@@ -27,7 +27,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></h2>
-                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></strong> is defined under <a href="https://laws-lois.justice.gc.ca/eng/acts/c-46/section-343.html">Section 343 of the Canadian Criminal Code</a> as a theft committed with violence or threats of violence. This sets robbery apart from other property crimes such as theft and break and enter (burglary).</p>
+                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></strong>, as defined under <a href="https://laws-lois.justice.gc.ca/eng/acts/c-46/section-343.html">Section 343 of the Canadian Criminal Code</a>, involves theft combined with violence or threats of violence. This distinguishes robbery from other property crimes like theft or break and enter.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></strong>
                         </p>
@@ -35,7 +35,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Break and Enter</h2>
-                        <p className={styles.categoryCopy}><strong>Break and Enter</strong> is defined as entering a residence, business, or other property without permission in order to commit a crime. Forced entry is not required. Even if there is no theft, harm to occupants, or damage to property, you can still face charges if you did not have permission to be there.</p>
+                        <p className={styles.categoryCopy}><strong>Break and Enter</strong> is the unauthorized entry into a residence, business, or other property with the intent to commit a crime. Forced entry is not necessary, and charges can apply even if no theft or damage occurs.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Break and Enter</strong>
                         </p>
@@ -43,7 +43,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Extortion</h2>
-                        <p className={styles.categoryCopy}><strong>Extortion</strong> is a crime that involves using threats, accusations, menaces, or violence to force someone into surrendering something against their will. This could include money, sexual favours, promises, or tangible property.</p>
+                        <p className={styles.categoryCopy}><strong>Extortion</strong> is the act of using threats, accusations, or violence to coerce someone into surrendering something against their will. This can include money, property, promises, or other tangible or intangible benefits.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Extortion</strong>
                         </p>
@@ -51,7 +51,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Mischief</h2>
-                        <p className={styles.categoryCopy}><strong>Mischief</strong> is the intentional destruction of property, rendering it dangerous or useless to others. You can also be charged with mischief if you obstruct or interfere with others&apos; lawful use and enjoyment of property.</p>
+                        <p className={styles.categoryCopy}><strong>Mischief</strong> involves the intentional destruction, damage, or interference with someone else&apos;s property. This includes rendering property useless, dangerous, or obstructing lawful use and enjoyment by others.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Mischief</strong>
                         </p>
@@ -59,7 +59,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Arson</h2>
-                        <p className={styles.categoryCopy}><strong>Arson</strong> is the offence of intentionally or recklessly causing damage by fire or explosion to any type of property or structure. The Criminal Code outlines five different types of arson offences: disregard for human life, own property, damage to property, arson for fraudulent purposes, and arson by negligence.</p>
+                        <p className={styles.categoryCopy}><strong>Arson</strong> refers to intentionally or recklessly causing damage by fire or explosion to property or structures. The Criminal Code identifies five types of arson: disregard for human life, damage to property, burning one&apos;s own property, arson for fraudulent purposes, and negligence-related arson.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Arson</strong>
                         </p>

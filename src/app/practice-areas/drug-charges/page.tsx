@@ -7,8 +7,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Drug Charges | Toronto Criminal Lawyer",
-  description: "Facing drug charges in Toronto? Click here to learn more about our criminal defence services.",
+  title: "Drug Charges | Regina Criminal Lawyer",
+  description: "Facing drug charges in Regina? Nicholas Robinson provides expert defence for possession, trafficking, and other drug-related offences.",
 };
 
 export default function Page() {
@@ -19,7 +19,7 @@ export default function Page() {
                 <section className={`${styles.pageContent} ${styles.categoryBody}`}>
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></h2>
-                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></strong> is legally defined in <a href="https://laws-lois.justice.gc.ca/eng/acts/c-38.8/page-1.html#:~:text=PART%20IOffences%20and%20Punishment&text=4%20(1)%20Except%20as%20authorized,Schedule%20I%2C%20II%20or%20III.">Part 1, section 4(1)</a> of the CDSA as the act of having a substance listed in Schedule I, II, or III, unless authorized by regulations. To establish guilt, it is crucial for the prosecution to demonstrate that the accused had knowledge of the narcotic substance.</p>
+                        <p className={styles.categoryCopy}><strong><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></strong> is defined under <a href="https://laws-lois.justice.gc.ca/eng/acts/c-38.8/page-1.html#:~:text=PART%20IOffences%20and%20Punishment&text=4%20(1)%20Except%20as%20authorized,Schedule%20I%2C%20II%20or%20III.">Part 1, section 4(1)</a> of the CDSA as the act of having a substance listed in Schedule I, II, or III without authorization. To secure a conviction, the prosecution must prove the accused had knowledge of the substance&apos;s presence and its nature.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></strong>
                         </p>
@@ -27,7 +27,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Possession for the Purpose of Trafficking</h2>
-                        <p className={styles.categoryCopy}><strong>Possession for the Purpose of Trafficking</strong>, as outlined by the CDSA, involves having a substance listed in Schedule I, II, III, IV, or V with the intention of engaging in trafficking activities. The quantity of the substance found in the accused&apos;s possession is used to distinguish between possession for personal use and possession for the purpose of trafficking. The specific threshold amounts vary depending on the substance involved.</p>
+                        <p className={styles.categoryCopy}><strong>Possession for the Purpose of Trafficking</strong>involves having a controlled substance with the intent to distribute or sell it. The quantity of the substance plays a crucial role in distinguishing between personal possession and possession for trafficking purposes.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Possession for the Purpose of Trafficking</strong>
                         </p>
@@ -35,7 +35,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Drug Trafficking</h2>
-                        <p className={styles.categoryCopy}><strong>Drug Trafficking</strong> refers to the act of trafficking a substance listed in Schedule I, II, III, IV, or V, or representing or claiming to possess such a substance. It is possible to be charged with drug trafficking even without being caught in the act of selling or distributing drugs. Mere possession of narcotics with the intent to sell or distribute can result in a drug trafficking charge.</p>
+                        <p className={styles.categoryCopy}><strong>Drug Trafficking</strong> refers to the act of distributing, selling, or offering to sell a substance listed in Schedule I through V. Even without direct evidence of sale, possession with intent to distribute can result in a trafficking charge.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Drug Trafficking</strong>
                         </p>
@@ -43,7 +43,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Drug Production</h2>
-                        <p className={styles.categoryCopy}>The production of a substance listed in Schedule I, II, III, IV, or V without authorization is a criminal offence under <a href="https://laws-lois.justice.gc.ca/eng/acts/c-38.8/section-7.html">section 7(2) of the CDSA</a>. <strong>Drug production</strong> includes activities such as manufacturing, synthesizing, or altering the chemical or physical properties of the substance. It also encompasses cultivating, propagating, or harvesting the substance or any living organism from which the substance can be extracted or obtained by any other means.</p>
+                        <p className={styles.categoryCopy}>Drug production involves manufacturing, cultivating, or altering a controlled substance listed in Schedule I through V without proper authorization. This includes any activity to create or extract the substance from its source.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Drug Production</strong>
                         </p>
@@ -51,7 +51,7 @@ export default function Page() {
 
                     <article className={styles.categoryCard}>
                         <h2 className={styles.categoryHeading}>Importing and Exporting Scheduled Substances</h2>
-                        <p className={styles.categoryCopy}><strong>Importing and Exporting Scheduled Substances</strong> into Canada or exporting a scheduled substance from Canada, unless authorized by regulations, is a criminal offence.</p>
+                        <p className={styles.categoryCopy}><strong>Importing and Exporting Scheduled Substances</strong> is a criminal offence when substances listed in the CDSA schedules are transported into or out of Canada without proper authorization.</p>
                         <p className={styles.categoryLearnMore}>
                             Learn more about <strong>Importing and Exporting Scheduled Substances</strong>
                         </p>

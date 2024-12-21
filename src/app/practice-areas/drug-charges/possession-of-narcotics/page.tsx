@@ -6,8 +6,8 @@ import PageHeader from "../../../components/PageHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Possession of Narcotics| Toronto Criminal Lawyer",
-  description: "Learn about your options when facing Possession of Narcotics charges. Call (647) 697-2876 to speak with a Toronto Criminal Lawyer.",
+  title: "Possession of Narcotics| Regina Criminal Lawyer",
+  description: "If you’re facing possession of narcotics charges in Regina, Nicholas Robinson can help. Get expert legal representation to defend against drug-related offences.",
 };
 
 export default function Page() {

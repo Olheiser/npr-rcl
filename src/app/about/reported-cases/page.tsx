@@ -6,8 +6,8 @@ import PageHeader from "../../components/PageHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reported Cases | Toronto Criminal Lawyer",
-  description: "Nicholas Robinson is a criminal lawyer in Toronto with reported cases in numerous courts. Click here to learn about his reported cases.",
+  title: "Reported Cases | Regina Criminal Lawyer",
+  description: "Explore reported cases handled by Nicholas Robinson, a leading criminal lawyer in Regina. Proven experience and results in Saskatchewan courts. Contact us at (306) 994-8323 to discuss your case today.",
 };
 
 export default function Page() {

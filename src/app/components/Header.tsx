@@ -2,7 +2,7 @@ import React from "react";
 import Image from 'next/image';
 import styles from "@/styles/Header.module.css";
 import HamburgerMenu from "./HamburgerMenu";
-import logo from "../../../public/toronto-criminal-lawyer.webp";
+import logo from "../../../public/regina-criminal-lawyer-logo.webp";
 import Link from "next/link";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 <Link href="/">
                     <Image 
                         src={logo}
-                        alt="Toronto Criminal Lawyer Logo"
+                        alt="Regina Criminal Lawyer Logo"
                         width={250}
                         height={75}
                         className={styles.logo}
@@ -22,9 +22,9 @@ const Header = () => {
                     <HamburgerMenu />
                 </nav>
                 <div className={styles.navCTA}>
-                    <a href="tel:6476972876" className={styles.navCTALink}>
+                    <a href="tel:3069948323" className={styles.navCTALink}>
                     <button className={styles.navCTAButton}>
-                        <span className={styles.navCTATopRow}>(647) 697-2876</span>
+                        <span className={styles.navCTATopRow}>(306) 994-8323</span>
                         <span className={styles.navCTABottomRow}>FREE CONSULTATION</span>
                     </button>
                     </a>

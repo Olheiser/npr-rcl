@@ -7,8 +7,8 @@ import FAQAccordion from "@/app/components/FAQAccordion";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | Toronto Criminal Lawyer",
-  description: "Do you need clarity on your criminal charges? Speak to a criminal lawyer in Toronto by calling (647) 697-2876 today.",
+  title: "Frequently Asked Questions | Regina Criminal Lawyer",
+  description: "Have questions about your criminal charges? Get clarity and legal guidance from Nicholas Robinson, a trusted criminal lawyer in Regina. Call (306) 994-8323 to speak with us now.",
 };
 
 export default function Page() {

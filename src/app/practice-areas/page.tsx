@@ -7,8 +7,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Practice Areas | Toronto Criminal Lawyer",
-  description: "Have you been charged with a criminal offence in Toronto? Click here to learn about the extent of our criminal defence services.",
+  title: "Practice Areas | Regina Criminal Lawyer",
+  description: "Charged with a criminal offence in Regina? Nicholas Robinson offers comprehensive criminal defence services tailored to your case. Call (306) 994-8323 to discuss your legal options today.",
 };
 
 export default function Page() {
@@ -18,7 +18,7 @@ export default function Page() {
         <div className={styles.pageContainer}>
             <article className={styles.pageContent}>
                 <h2>Driving Offences</h2>
-                <p>Driving offences encompass a range of illegal activities related to the operation of motor vehicles. Individuals convicted of a driving offence may face significant consequences, including driving prohibitions, fines, or even imprisonment.</p>
+                <p>Driving offences involve violations related to operating motor vehicles. Convictions can lead to serious consequences such as driving bans, fines, or imprisonment.</p>
                 <p><strong>Driving Offences Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/driving-offences/impaired-driving">Impaired Driving</Link></li>
@@ -31,7 +31,7 @@ export default function Page() {
                 </ul>
 
                 <h2>Sexual Offences</h2>
-                <p>Sexual offences cover a spectrum of illegal acts involving non-consensual sexual activities and exploitation. Convictions can result in severe penalties, including imprisonment and mandatory registration as a sex offender.</p>
+                <p>Sexual offences encompass non-consensual acts and exploitation. Convictions carry severe consequences, such as imprisonment and mandatory sex offender registration.</p>
                 <p><strong>Sexual Offences Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/sexual-offences/sexual-assault">Sexual Assault</Link></li>
@@ -45,7 +45,7 @@ export default function Page() {
                 </ul>
 
                 <h2>Assault Charges</h2>
-                <p>Assault charges relate to acts of physical violence or threats against others. Depending on the severity, consequences can include restraining orders, fines, and prison terms, highlighting the importance of personal security and legal protection against harm.</p>
+                <p>Assault charges cover acts of physical violence or threats. Consequences vary based on severity and may include restraining orders, fines, or imprisonment, emphasizing the importance of addressing these charges promptly.</p>
                 <p><strong>Assault Charges Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/assault-charges/assault">Assault</Link></li>
@@ -58,7 +58,7 @@ export default function Page() {
                 </ul>
 
                 <h2>Drug Charges</h2>
-                <p>Drug charges range from possession to trafficking of illegal substances. Convictions often lead to hefty fines, mandatory treatment programs, or imprisonment, underlining the emphasis on public health and safety.</p>
+                <p>Drug charges range from possession to trafficking and production of controlled substances. Convictions can result in fines, rehabilitation orders, or imprisonment, underscoring the focus on public safety.</p>
                 <p><strong>Drug Charges Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/drug-charges/possession-of-narcotics">Possession of Narcotics</Link></li>
@@ -69,7 +69,7 @@ export default function Page() {
                 </ul>
 
                 <h2>Property Crimes</h2>
-                <p>Property crimes encompass offences such as burglary, theft, and vandalism, targeting tangible assets. Penalties vary widely but can include fines, community service, and jail time, aimed at compensating loss and deterring future violations.</p>
+                <p>Property crimes involve offences targeting tangible assets, such as theft or vandalism. Penalties can include fines, community service, or jail time, focusing on restitution and deterrence.</p>
                 <p><strong>Property Crimes Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/property-crimes/robbery">Robbery</Link></li>
@@ -81,7 +81,7 @@ export default function Page() {
                 </ul>
 
                 <h2>Fraud Charges</h2>
-                <p>Fraud charges apply to deceitful activities intended to result in financial or personal gain. Those found guilty may face substantial fines, restitution orders, and incarceration, reflecting the seriousness of undermining trust in financial and personal transactions.</p>
+                <p>Fraud charges address deceptive actions intended for financial or personal gain. Penalties can include fines, restitution, or incarceration, reflecting the seriousness of such offences.</p>
                 <p><strong>Fraud Charges Include</strong></p>
                 <ul className={`${styles.contentList} ${styles.contentBreak}`}>
                     <li><Link href="/practice-areas/fraud-charges/fraud">Fraud</Link></li>
