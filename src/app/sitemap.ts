@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://torontocriminallaw.net'
+  const baseUrl = 'https://reginacriminallawyer.ca'
 
   return [
     // Homepage - Highest priority

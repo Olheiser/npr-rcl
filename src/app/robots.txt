@@ -12,4 +12,4 @@ Disallow: /*.js$
 
 Allow: /
 
-Sitemap: https://torontocriminallaw.net/sitemap.xml
+Sitemap: https://reginacriminallawyer.ca/sitemap.xml
