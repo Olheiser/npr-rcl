@@ -72,7 +72,7 @@ export default async function Home() {
       "height": 645
     },
     "mainEntity": {
-      "@type": "LegalService",
+      "@type": ["LegalService", "LocalBusiness"],
       "@id": "https://reginacriminallawyer.ca/#LegalService",
       "name": "Nicholas Robinson Regina Criminal Lawyer",
       "alternateName": "N.P. Robinson Law Professional Corporation",
