@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 //import { PopupButton } from "react-calendly";
 
 export const metadata: Metadata = {
-  title: "Top Criminal Lawyer in Regina | Expert Criminal Defence - Nicholas Robinson",
-  description: "Looking for a trusted criminal lawyer in Regina? Nicholas Robinson provides expert criminal defence for all criminal charges. Call now for a free consultation and protect your rights.",
+  title: "Top Criminal Lawyer in Regina | Seasoned Criminal Defence - Nicholas Robinson",
+  description: "Looking for a trusted criminal lawyer in Regina? Nicholas Robinson provides reliable criminal defence for all criminal charges. Call now for a free consultation and protect your rights.",
 };
 
 export default function RootLayout({
