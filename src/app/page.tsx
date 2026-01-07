@@ -198,7 +198,7 @@ export default async function Home() {
         <article className={styles.introContainer}>
           <div className={styles.headingContainer}>
             <h1 className={styles.title}>Regina Criminal Lawyer</h1>
-            <h2 className={styles.titleSubheading}>Criminal Defence Specialist</h2>
+            <h2 className={styles.titleSubheading}>Seasoned Criminal Defence</h2>
           </div>
           
           
