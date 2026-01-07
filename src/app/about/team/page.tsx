@@ -11,9 +11,9 @@ import AlexanderSurgenor from "../../../../public/alexander-surgenor-criminal-la
 import ChrisMacleod from "../../../../public/chris-macleod-criminal-lawyer.webp";
 import MariiaTsyliuryk from "../../../../public/mariia-tsyliuryk.webp";
 import GeorgeBalabanian from "../../../../public/george-balabanian-criminal-lawyer.jpg"
-import HazelWood from "../../../../public/hazel-wood.avif"
-import MaksymKachurovsky from "../../../../public/maksym-kachurovsky.avif"
-import YosefAsmat from "../../../../public/yosef-asmat.avif"
+import HazelWood from "../../../../public/hazel-wood.avif";
+import MaksymKachurovsky from "../../../../public/maksym-kachurovsky.avif";
+import YosefAsmat from "../../../../public/yosef-asmat.avif";
 
 
 import type { Metadata } from "next";
