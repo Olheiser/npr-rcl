@@ -6,6 +6,7 @@ import CalendlyWidget from "./components/CalendlyButton";
 //import CalendlyPopupButton from "./components/CalendlyPopupButton";
 import "./globals.css"
 import type { Metadata } from "next";
+import Script from "next/script";
 
 //import { PopupButton } from "react-calendly";
 
@@ -22,24 +23,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Tag (gtag.js) 
+        {/* Google Tag (gtag.js) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-653876065"
+          async src="https://www.googletagmanager.com/gtag/js?id=G-QWG610QH0W"
           strategy="afterInteractive" // Ensures script runs after page load
         />
         <Script
-          id="google-analytics"
-          strategy="afterInteractive" // Runs after the page becomes interactive
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+    id="google-analytics"
+    strategy="afterInteractive" // Runs after the page becomes interactive
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-              gtag('config', 'AW-653876065');
-            `,
-          }}
-        />*/}
+        gtag('config', 'G-QWG610QH0W');
+      `,
+    }}
+  />
       </head>
       <body id="root">
         <Header />
