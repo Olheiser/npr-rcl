@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useRef, FormEvent } from "react";
-import styles from '@/styles/AdForm.module.css';
+import styles from '@/styles/LeadForm.module.css';
 
 interface LawmaticsPayload {
     first_name: string;
